@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /styleguide/
+
+Sitemap: https://lanceguyatt.com/sitemap.xml
