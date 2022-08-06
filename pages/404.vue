@@ -10,5 +10,5 @@ alert
     | Software Failure. Press left mouse button to continue.
     br
     | Guru Meditation #00004040.00004040
-  nuxt-link(to='/') Close 
+  nuxt-link(to='/') Close
 </template>

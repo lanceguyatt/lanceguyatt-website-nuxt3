@@ -1,0 +1,5 @@
+.nuxt
+.output
+*/**.css
+node_modules
+storybook-static

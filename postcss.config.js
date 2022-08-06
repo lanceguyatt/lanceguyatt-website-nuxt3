@@ -6,6 +6,6 @@ module.exports = {
     // 'postcss-calc': {
     //   precision: 10,
     // },
-    autoprefixer: {},
-  },
+    autoprefixer: {}
+  }
 }

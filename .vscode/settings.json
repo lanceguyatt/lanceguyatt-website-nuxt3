@@ -1,0 +1,29 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {},
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": false,
+  "eslint.validate": [
+    "javascript",
+    "json",
+    "jsonc",
+    "typescript",
+    "html",
+    "vue",
+    "markdown",
+  ],
+
+  "prettier.requireConfig": true,
+  // "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+
+  "[typescript][javascript][json][jsonc][html][markdown][vue][css][pug]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    }
+  },
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false
+}

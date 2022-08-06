@@ -1,1 +1,1 @@
-# Lance Guyatt !!
+# Lance Guyatt, Web Developer.

@@ -2,7 +2,7 @@
 head:
   title: Awin - Work
 title: Awin
-url: https://www.awin.com/
+url: https://awin.com/
 tags:
   - Keystone 4
   - Gulpjs

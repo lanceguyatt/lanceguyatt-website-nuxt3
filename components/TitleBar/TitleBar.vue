@@ -9,8 +9,10 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template lang="pug">
-div(:class='`c-title-bar flex items-center height-[22px] c-title-bar--${variant}`')
-  div(class='flex flex-auto overflow-hidden text-ellipsis no-wrap h-[18px] pl-1')
+div(
+  :class='`c-title-bar flex items-center height-[22px] c-title-bar--${variant}`'
+)
+  div(class='no-wrap flex h-[18px] flex-auto overflow-hidden text-ellipsis pl-1')
     slot
 </template>
 

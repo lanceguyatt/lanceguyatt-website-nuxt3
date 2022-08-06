@@ -8,11 +8,14 @@ module.exports = {
     `plugins/**/*.{js,ts}`,
     `App.{js,ts,vue}`,
     `app.{js,ts,vue}`,
-    'content/**/*.md',
+    'content/**/*.md'
   ],
   theme: {
     fontFamily: {
-      sans: ['Topaz'],
+      sans: ['Topaz']
+    },
+    fontSize: {
+      base: '1.6rem'
     },
     backgroundPosition: {
       'disk-left': '-4.3rem 0'
@@ -24,29 +27,28 @@ module.exports = {
       grey: 'hsl(0deg 0% 63%)', // sliver chalice #A0A0A0
       purple: 'hsl(300deg 61.9% 16.5%)',
       tan: 'hsl(20deg 60.8% 69%)',
-      red: 'red',
+      red: 'red'
     },
     extend: {
       animation: {
-        insert: 'insert 1.5s forwards infinite',
+        insert: 'insert 1.5s forwards infinite'
       },
-      backgroundImage: {
-        disk: "url('/images/disk.svg')"
-      },
-      fontSize: {
-        base: '1.6rem',
-      },
+      backgroundImage: {},
+
       keyframes: {
         insert: {
           '0%': { transformOrigin: '0% 0%' },
           '20%': {
             transform: 'translate3d(0, 2rem, 0)',
-            transformOrigin: '0% 0%',
+            transformOrigin: '0% 0%'
           },
-          '100%': { transform: 'rotateX(83deg) translateY(-35rem)', transformOrigin: '0% 0%' },
-        },
-      },
-    },
+          '100%': {
+            transform: 'rotateX(83deg) translateY(-35rem)',
+            transformOrigin: '0% 0%'
+          }
+        }
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }

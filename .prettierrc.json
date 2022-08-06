@@ -1,0 +1,17 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "vueIndentScriptAndStyle": false,
+  "singleAttributePerLine": false,
+  "pugAttributeSeparator": "none",
+  "pugCommentPreserveSpaces": "trim-all",
+  "pugSortAttributes": "as-is",
+  "pugWrapAttributesThreshold": -1,
+  "pugSingleFileComponentIndentation": false,
+  "pugClassNotation": "attribute",
+  "pugIdNotation": "as-is",
+  "pugClassLocation": "before-attributes",
+  "pugExplicitDiv": true
+}

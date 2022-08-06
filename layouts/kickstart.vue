@@ -1,10 +1,17 @@
 <template lang="pug">
-main(class='flex gap-6 flex-col md:flex-row items-center md:justify-between md:items-end min-h-screen w-full overflow-hidden bg-purple p-6 md:p-7 text-tan')
+main(
+  class='flex min-h-screen w-full flex-col items-center gap-6 overflow-hidden bg-purple p-6 text-tan md:flex-row md:items-end md:justify-between md:p-7'
+)
   div(class='sm:w-[18rem]')
-    img(src='/images/tick.svg' loading='eager' alt='' class='w-[16.5rem] h-[15rem] block mb-6')
+    img(
+      src='/images/tick.svg'
+      loading='eager'
+      alt=''
+      class='mb-6 block h-[15rem] w-[16.5rem]'
+    )
     slot
   nuxt-link(to='/' aria-label='Return to Workbench')
-    div(class='h-[16.9rem] w-[15.6rem] relative')
+    div(class='relative h-[16.9rem] w-[15.6rem]')
       floppy-drive
       floppy-disk(class='absolute bottom-0 left-[1.2rem]' animate)
 </template>
