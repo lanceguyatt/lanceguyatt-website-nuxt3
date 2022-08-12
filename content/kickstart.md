@@ -1,5 +1,7 @@
 ---
-name: Kickstart
+title: Kickstart
+layout: kickstart
+navigation: false
 ---
 
 2.0 Roms (37.350)

@@ -9,6 +9,24 @@ export default defineNuxtConfig({
   // },
   typescript: {
     typeCheck: true
+  },
+  content: {
+    documentDriven: true,
+    globals: {
+      theme: {
+        where: [
+          {
+            _id: 'content:_theme.yml'
+          }
+        ],
+        without: ['_']
+      }
+    }
+  },
+  app: {
+    head: {
+      link: [{ rel: 'author', href: '/humans.txt', type: 'text/plain' }]
+    }
   }
   // vite: {
   //   optimizeDeps: {

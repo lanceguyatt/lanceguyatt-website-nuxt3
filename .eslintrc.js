@@ -13,7 +13,7 @@ module.exports = {
     'prettier',
     'plugin:prettier/recommended'
   ],
-  // plugins: [],
+  plugins: ['markdown'],
   rules: {
     // "vue/first-attribute-linebreak": [
     //   "error",

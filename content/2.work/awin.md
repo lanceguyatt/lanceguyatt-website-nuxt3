@@ -1,8 +1,7 @@
 ---
-head:
-  title: Awin - Work
 title: Awin
 url: https://awin.com/
+datePublished: 2016-01-01
 tags:
   - Keystone 4
   - Gulpjs

@@ -1,18 +1,19 @@
 <script setup lang="ts">
-interface Props {
+export interface TitleBarInterface {
   variant?: 'screen' | 'window'
 }
 
-withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<TitleBarInterface>(), {
   variant: 'window'
 })
 </script>
 
 <template lang="pug">
 div(
-  :class='`c-title-bar flex items-center height-[22px] c-title-bar--${variant}`'
+  data-component='title-bar'
+  :class='`c-title-bar flex items-center height-[2.2rem] c-title-bar--${variant}`'
 )
-  div(class='no-wrap flex h-[18px] flex-auto overflow-hidden text-ellipsis pl-1')
+  div(class='no-wrap flex h-[18px] flex-auto overflow-hidden text-ellipsis')
     slot
 </template>
 
@@ -23,7 +24,8 @@ div(
   }
 
   &--window {
-    @apply border-[0.2rem];
+    @apply border-y-[0.2rem] border-x-[0.1rem];
+    border-image: url(/images/window-titlebar.svg) 2 1 2 1 stretch;
   }
 }
 </style>

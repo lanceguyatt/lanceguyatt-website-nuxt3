@@ -18,7 +18,7 @@ nuxtApp.hook('page:finish', () => {
 Html
   Head
     //- Link(rel='icon' href='/favicon.ico')
-    Link(rel='author' href='/humans.txt' type='text/plain')
+    //- Link(rel='author' href='/humans.txt' type='text/plain')
   nuxt-layout
     nuxt-page
 </template>

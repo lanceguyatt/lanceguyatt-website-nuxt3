@@ -1,0 +1,14 @@
+<svg width="347" height="238" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path
+            d="M347-22v2h-22v18h-1v-18h-22v18h-1v-18H1v258H0V-22h347zM330 0v174h16v2h-16v20h16v2h-16v20h16v2h-16v16h-1v-16h-15v16h-1v-16h-15v16h-1v-16H4v-2h325V0h1zm-37 224v8H5v-8h288zM342 6v162h-8V6h8z"
+            fill="#FFF" fill-rule="nonzero" />
+        <path
+            d="M301-20v18h22v-18h1v18h22v-18h1v258H1v-2h311v-16h1v16h15v-16h1v16h17v-18h-16v-2h16v-20h-16v-2h16V0H4v220H3V0H1v-2h299v-18h1zm-6 242v12H3v-12h292zm-2 2H5v8h288v-8zm15 6v2h-2v-2h2zm12 0v2h-2v-2h2zm-14-2v2h-2v-2h2zm16 0v2h-2v-2h2zm-18-2v2h-2v-2h2zm20 0v2h-2v-2h2zm-2-2v2h-2v-2h2zm-16 0v2h-2v-2h2zm2-2v2h-2v-2h2zm12 0v2h-2v-2h2zm19-14v2h-2v-2h2zm-2-2v2h-2v-2h2zm4 0v2h-2v-2h2zm-6-2v2h-2v-2h2zm8 0v2h-2v-2h2zm-8-18v2h-2v-2h2zm8 0v2h-2v-2h2zm-6-2v2h-2v-2h2zm4 0v2h-2v-2h2zm-2-2v2h-2v-2h2zm3-14V6h-8v162h8zm1 4h-10V2h10v170z"
+            fill="#000" fill-rule="nonzero" />
+        <g fill-rule="nonzero">
+            <path d="M333 234v-4h2v2h8v-8h-2v2h-2v-2h2v-2h3v12h-11zm4-6v2h-2v-2h2zm2-2v2h-2v-2h2z" fill="#000" />
+            <path fill="#FFF" d="M341 226v-2h2v8h-8v-2h2v-2h2v-2z" />
+        </g>
+    </g>
+</svg>
